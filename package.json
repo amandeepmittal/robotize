@@ -1,0 +1,19 @@
+{
+  "name": "robotize",
+  "author": "superwolff <superwolff@superwolff.nl> (http://superwolff.nl/)",
+  "description": "Generates a robots.txt",
+  "repository": "git://github.com/superwolff/robotize.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint '{lib,test}/**/*.js'",
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.1",
+    "mocha": "^2.4.5"
+  }
+}
