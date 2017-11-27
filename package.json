@@ -3,7 +3,7 @@
   "author": "superwolff <superwolff@superwolff.nl> (http://superwolff.nl/)",
   "description": "Generates a robots.txt",
   "repository": "git://github.com/superwolff/robotize.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
@@ -14,6 +14,6 @@
     "eslint": "^2.3.0",
     "eslint-config-airbnb": "^6.1.0",
     "eslint-plugin-react": "^4.2.1",
-    "mocha": "^2.4.5"
+    "mocha": "3.5.0"
   }
 }

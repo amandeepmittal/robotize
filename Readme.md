@@ -8,7 +8,9 @@
 
 > Generates a robots.txt
 
-This module generates a robots.txt. The generated robots.txt conforms to the [standards set by Google](https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt). Use it to programmatically generate a robots.txt file for your site.
+This module generates a robots.txt. The generated robots.txt conforms to the
+[standards set by Google](https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt).
+Use it to programmatically generate a robots.txt file for your site.
 
 ## Installation
 
@@ -19,12 +21,12 @@ $ npm install robotize
 ## Example
 
 ```javascript
-const robotize = require('robotize');
+const robotize = require("robotize");
 const opts = {
-  useragent: 'googlebot',
-  allow: ['index.html', 'about.html'],
-  disallow: ['404.html'],
-  sitemap: 'https://www.site.com/sitemap.xml'
+  useragent: "googlebot",
+  allow: ["index.html", "about.html"],
+  disallow: ["404.html"],
+  sitemap: "https://www.site.com/sitemap.xml"
 };
 
 robotize(opts, (err, robots) => {
@@ -35,7 +37,9 @@ robotize(opts, (err, robots) => {
   }
 });
 ```
-Will log
+
+Will log:
+
 ```
 User-agent: googlebot
 Allow: index.html
@@ -53,11 +57,13 @@ Robotize accepts an object with options. The options are:
 * `disallow`: an array of the url(s) to disallow - Array of Strings
 * `sitemap`: the sitemap url - String
 
-Robotize expects at least one of the last three options. So either `allow`, `disallow` or `sitemap` must be passed.
+Robotize expects at least one of the last three options. So either `allow`,
+`disallow` or `sitemap` must be passed.
 
 ## Credits
 
-Forked from [robots-generator](https://github.com/haydenbleasel/robots-generator)
+Forked from
+[robots-generator](https://github.com/haydenbleasel/robots-generator).
 
 ## License
 
