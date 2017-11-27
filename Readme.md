@@ -2,8 +2,6 @@
 
 [![npm version][version-badge]][version-url]
 [![build status][build-badge]][build-url]
-[![dependency status][dependency-badge]][dependency-url]
-[![devdependency status][devdependency-badge]][devdependency-url]
 [![downloads][downloads-badge]][downloads-url]
 
 > Generates a robots.txt
@@ -71,10 +69,6 @@ MIT
 
 [build-badge]: https://travis-ci.org/superwolff/robotize.svg
 [build-url]: https://travis-ci.org/superwolff/robotize
-[dependency-badge]: https://david-dm.org/superwolff/robotize.svg
-[dependency-url]: https://david-dm.org/superwolff/robotize
-[devdependency-badge]: https://david-dm.org/superwolff/robotize/dev-status.svg
-[devdependency-url]: https://david-dm.org/superwolff/robotize#info=devDependencies
 [downloads-badge]: https://img.shields.io/npm/dm/robotize.svg
 [downloads-url]: https://www.npmjs.com/package/robotize
 [version-badge]: https://img.shields.io/npm/v/robotize.svg
