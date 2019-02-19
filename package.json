@@ -1,27 +1,31 @@
 {
-  "name": "robotize",
-  "author":
-    "Aman Mittal <amandeepmittal@live.com> (http://amandeepmittal.github.io/)",
-  "description": "Generates a robots.txt",
-  "version": "1.0.0",
-  "license": "MIT",
-  "main": "lib/index.js",
-  "scripts": {
-    "lint": "eslint '{lib,test}/**/*.js'",
-    "test": "mocha --reporter spec"
-  },
-  "devDependencies": {
-    "eslint": "^2.3.0",
-    "eslint-config-airbnb": "^6.1.0",
-    "eslint-plugin-react": "^4.2.1",
-    "mocha": "3.5.0"
-  },
-  "contributors": [
-    "superwolff <superwolff@superwolff.nl> (http://superwolff.nl/)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/amandeepmittal/robotize.git"
-  },
-  "keywords": ["robot", "robots", "robotize", "txt"]
+	"name": "robotize",
+	"author": "Aman Mittal <amandeepmittal@live.com> (http://amandeepmittal.github.io/)",
+	"description": "Generates a robots.txt",
+	"version": "1.1.0",
+	"license": "MIT",
+	"main": "lib/index.js",
+	"scripts": {
+		"lint": "eslint '{lib,test}/**/*.js'",
+		"test": "mocha --reporter spec"
+	},
+	"devDependencies": {
+		"eslint": "^5.14.1",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-plugin-react": "^7.12.4",
+		"mocha": "6.0.0"
+	},
+	"contributors": [
+		"superwolff <superwolff@superwolff.nl> (http://superwolff.nl/)"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/amandeepmittal/robotize.git"
+	},
+	"keywords": [
+		"robot",
+		"robots",
+		"robotize",
+		"txt"
+	]
 }
