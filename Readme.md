@@ -19,20 +19,20 @@ $ npm install robotize
 ## Example
 
 ```javascript
-const robotize = require("robotize");
+const robotize = require('robotize');
 const opts = {
-  useragent: "googlebot",
-  allow: ["index.html", "about.html"],
-  disallow: ["404.html"],
-  sitemap: "https://www.site.com/sitemap.xml"
+	useragent: 'googlebot',
+	allow: ['index.html', 'about.html'],
+	disallow: ['404.html'],
+	sitemap: 'https://www.site.com/sitemap.xml'
 };
 
 robotize(opts, (err, robots) => {
-  if (err) {
-    throw new Error(err);
-  } else {
-    console.log(robots);
-  }
+	if (err) {
+		throw new Error(err);
+	} else {
+		console.log(robots);
+	}
 });
 ```
 
@@ -50,10 +50,10 @@ Sitemap: https://www.site.com/sitemap.xml
 
 Robotize accepts an object with options. The options are:
 
-* `useragent`: the useragent - String, default: `*`
-* `allow`: an array of the url(s) to allow - Array of Strings
-* `disallow`: an array of the url(s) to disallow - Array of Strings
-* `sitemap`: the sitemap url - String
+- `useragent`: the useragent - String, default: `*`
+- `allow`: an array of the url(s) to allow - Array of Strings
+- `disallow`: an array of the url(s) to disallow - Array of Strings
+- `sitemap`: the sitemap url - String
 
 Robotize expects at least one of the last three options. So either `allow`,
 `disallow` or `sitemap` must be passed.
