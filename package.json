@@ -1,8 +1,8 @@
 {
 	"name": "robotize",
-	"author": "Aman Mittal <amandeepmittal@live.com> (http://amandeepmittal.github.io/)",
+	"author": "Aman Mittal <amandeepmittal@live.com> (http://amanhimself.dev/)",
 	"description": "Generates a robots.txt",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"license": "MIT",
 	"main": "lib/index.js",
 	"scripts": {
@@ -13,7 +13,7 @@
 		"eslint": "^5.14.1",
 		"eslint-config-airbnb": "^17.1.0",
 		"eslint-plugin-react": "^7.12.4",
-		"mocha": "6.0.0"
+		"mocha": "6.2.2"
 	},
 	"contributors": [
 		"superwolff <superwolff@superwolff.nl> (http://superwolff.nl/)"
